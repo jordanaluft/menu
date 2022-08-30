@@ -4,14 +4,37 @@ body {
 
 .title {
   font-size: 30px;
-  margin: 80px 0px 0px 400px;
+  margin: 80px 0px 0px 500px;
   font-weight: bold;
 }
 
 .underline {
-  background-color: gold;
-  margin-left: 450px;
+  background-color:  rgb(145, 126, 23);
+  margin-left: 550px;
   margin-top: 2px;
   width: 100px;
   height: 6px;
 }
+
+.header {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 500px;
+  justify-content: space-between;
+}
+
+.header--button {
+  color: rgb(124, 113, 49);
+  background-color: white;
+  transition-duration: 0.4s;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.header--button:hover {
+  background-color: rgb(124, 113, 49);
+  color:white;
+}
+
