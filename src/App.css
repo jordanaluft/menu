@@ -4,19 +4,19 @@ body {
 
 .title {
   font-size: 30px;
-  margin: 80px 0px 0px 500px;
+  margin: 80px 0px 0px 540px;
   font-weight: bold;
 }
 
 .underline {
   background-color:  rgb(145, 126, 23);
-  margin-left: 550px;
+  margin-left: 590px;
   margin-top: 2px;
   width: 100px;
   height: 6px;
 }
 
-.header {
+.category {
   display: flex;
   margin-top: 20px;
   margin-left: 400px;
@@ -25,7 +25,7 @@ body {
   justify-content: space-between;
 }
 
-.header--button {
+.category--button {
   color: rgb(124, 113, 49);
   background-color: white;
   transition-duration: 0.4s;
@@ -34,7 +34,7 @@ body {
   font-size: 18px;
 }
 
-.header--button:hover {
+.category--button:hover {
   background-color: rgb(124, 113, 49);
   color:white;
 }
